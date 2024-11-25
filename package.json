@@ -1,0 +1,43 @@
+{
+    "name": "biofixfresh-fe-next",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@maptiler/leaflet-maptilersdk": "^2.0.0",
+        "@mui/material": "^5.15.21",
+        "@nextui-org/react": "^2.4.1",
+        "@types/leaflet": "^1.9.12",
+        "antd": "^5.18.0",
+        "flowbite-react": "^0.10.0",
+        "framer-motion": "^11.2.10",
+        "leaflet": "^1.9.4",
+        "moment": "^2.30.1",
+        "next": "^14.2.13",
+        "next-intl": "^3.14.1",
+        "react": "^18",
+        "react-dom": "^18",
+        "react-fast-marquee": "^1.6.4",
+        "react-icons": "^5.2.1",
+        "react-modal": "^3.16.1",
+        "sharp": "^0.33.4"
+    },
+    "devDependencies": {
+        "@types/node": "^20",
+        "@types/react": "^18",
+        "@types/react-dom": "^18",
+        "@types/react-modal": "^3.16.3",
+        "eslint": "^8",
+        "eslint-config-next": "14.2.3",
+        "postcss": "^8",
+        "tailwindcss": "^3.4.1",
+        "typescript": "^5"
+    }
+}

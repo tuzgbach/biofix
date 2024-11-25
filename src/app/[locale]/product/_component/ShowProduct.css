@@ -1,0 +1,86 @@
+.custom-menu {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 20px;
+}
+
+.custom-menu .ant-menu-item {
+    font-size: 13px;
+    font-weight: 500;
+    color: #495057;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-menu .ant-menu-item:hover {
+    background-color: #e9ecef;
+    color: #007bff;
+}
+
+.custom-menu .ant-menu-item-selected {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.custom-menu .ant-menu-item-selected:hover {
+    background-color: #0056b3;
+    color: #ffffff;
+}
+
+/* Enhance hover effect with wider width and shadow */
+.custom-hover-effect:hover {
+    transition: width 300ms ease-in-out, box-shadow 300ms ease-in-out;
+    width: 15%; /* Adjusted width */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth transitions for all items */
+.group > li {
+    transition: width 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+/* Animation for active item */
+.group > li[aria-current='true'] {
+    animation: pop 0.5s ease forwards;
+}
+
+@keyframes pop {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .group > li {
+        width: 100%; /* Adjust width for smaller screens */
+        transition: none; /* Optional: Disable transitions on smaller screens for better performance */
+    }
+}
+
+.text-shadow-md {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollbar-thumb-gray-400::-webkit-scrollbar-thumb {
+    background-color: rgba(156, 163, 175, 0.5);
+    border-radius: 4px;
+}
+
+.scrollbar-track-gray-100::-webkit-scrollbar-track {
+    background: rgba(229, 231, 235, 0.5);
+}
+
+.hover:scrollbar-thumb-gray-500::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(107, 114, 128, 0.5);
+}

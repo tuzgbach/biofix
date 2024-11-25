@@ -1,0 +1,48 @@
+.custom-modal {
+    max-width: 600px;
+    width: 100%;
+}
+
+.header-image {
+    height: 200px;
+}
+
+.header-image img {
+    transition: transform 0.5s;
+}
+
+.header-image:hover img {
+    transform: scale(1.05);
+}
+
+.overlay {
+    transition: opacity 0.5s;
+}
+
+.header-image:hover .overlay {
+    opacity: 0;
+}
+
+.btn-cancel {
+    border-radius: 999px;
+    padding: 0.5rem 2rem;
+    background-color: #f56565;
+    color: white;
+    border: none;
+}
+
+.btn-cancel:hover {
+    background-color: #e53e3e;
+}
+
+.btn-submit {
+    border-radius: 999px;
+    padding: 0.5rem 2rem;
+    background-color: #3182ce;
+    color: white;
+    border: none;
+}
+
+.btn-submit:hover {
+    background-color: #2b6cb0;
+}

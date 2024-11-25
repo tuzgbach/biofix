@@ -1,0 +1,117 @@
+{
+    "common": {
+        "home": "Trang chủ",
+        "news": "Tin tức",
+        "product": "Sản phẩm",
+        "company": "Về chúng tôi",
+        "email": "Email Biofixfresh",
+        "search": "Tìm kiếm...",
+        "watch-video": "Xem video",
+        "all-category": "Tất cả danh mục",
+        "cc": "Đờ mờ: {name}",
+        "project": "Dự án",
+        "goHome": "Về trang chủ",
+        "contact": "Liên hệ",
+        "login": "Đăng nhập",
+        "Register-information": "Đăng ký đồng hành",
+        "event": "Sự kiện thường niên",
+        "socical": "Kết nối với chúng tôi",
+        "receive-information": "Gửi thông tin về",
+        "copyright": "BioFix Fresh. Đã đăng ký bản quyền"
+    },
+    "admin": {
+        "info": {
+            "cc": "Đờ mờ",
+            "general": "Thông tin chung",
+            "slug": "Slug là đường dẫn hiển thị trên trình duyệt. Nó phải là duy nhất và chỉ chứa các chữ cái, số và dấu gạch ngang.",
+            "autoByName": "Tạo tự động theo tên",
+            "display": "Hiển thị",
+            "language": "Đa ngôn ngữ",
+            "languageSub": "Đang chỉnh sửa bằng Tiếng {name}",
+            "categoryNews": "Danh mục bài viết",
+            "content": "Nội dung",
+            "introduce": "Giới thiệu",
+            "isRequire": "{name} là bắt buộc, không được để trống",
+            "delete": "Xóa {name}",
+            "add": "Thêm {name}",
+            "select": "Chọn {name}",
+            "show": "Hiện",
+            "hidden": "Ẩn",
+            "imageExtra": "Những hình ảnh sẽ hiện thỉ nổi trên banner tại trang chủ tối thiểu 3 hình ảnh",
+            "productExcellent": "Sản phẩm nổi bật",
+            "newsExcellent": "Bài viết nổi bật",
+            "productExcellentExtra": "sản phẩm nổi bật sẽ được hiển thị tại trang chủ tối thiểu 4 sản phẩm",
+            "newsExcellentExtra": "Bài viết nổi bật sẽ được hiển thị tại trang chủ tối thiểu 8 bài biết",
+            "address": "Địa chỉ",
+            "hostLine": "Liên hệ",
+            "policies": "Chính sách",
+            "brands": "Thương hiệu",
+            "companyName": "Tên công ty",
+            "linkChannels": "Trang liên kết"
+        },
+        "news": {
+            "type": "Loại bài viết có thể là bài viết hoặc sự kiện",
+            "error": {
+                "require": "Tên bài viết {name} không được để trống",
+                "descriptionRequire": "Mô tả bài viết {name} không được để trống",
+                "descriptionLength": "Mô tả bài viết không quá {name} ký tự",
+                "nameRequire": "Tên bài viết {name} không được để trống",
+                "NameLength": "Tên bài viết không quá {name} ký tự",
+                "slugRequire": "Slug bài viết không được để trống",
+                "slugValid": "Slug bài viết không hợp lệ, chỉ chứa chữ cái, số và dấu gạch ngang",
+                "startDateRequire": "Ngày bắt đầu là bắt buộc, không được để trống",
+                "endDateRequire": "Ngày kết thúc là bắt buộc, không được để trống",
+                "startDateValid": "Ngày bắt đầu phải nhỏ hơn ngày kết thúc"
+            },
+            "name": "Tên bài viết"
+        },
+        "product": {
+            "composition": "Thành phần",
+            "microbialDensity": "Mật độ vi sinh",
+            "isPublish": "Nếu không chọn, sản phẩm ẩn không show cho người dùng.",
+            "moreProduct": "Xem sản phẩm",
+            "error": {
+                "descriptionRequire": "Mô tả sản phẩm {name} không được để trống",
+                "descriptionLength": "Mô tả sản phẩm không quá {name} ký tự",
+                "nameRequire": "Tên sản phẩm {name} không được để trống",
+                "NameLength": "Tên sản phẩm không quá {name} ký tự",
+                "slugRequire": "Slug sản phẩm không được để trống",
+                "slugValid": "Slug sản phẩm không hợp lệ, chỉ chứa chữ cái, số và dấu gạch ngang",
+                "categoryMustArray": "Danh mục sản phẩm phải là mảng",
+                "positivesRequire": "Lợi ích là bắt buộc (Bạn có thể xóa, nhấp vào dấu trừ bên cạnh)"
+            }
+        },
+        "category": {
+            "isPublish": "Nếu không chọn, sản phẩm ẩn không show cho người dùng.",
+            "error": {
+                "descriptionRequire": "Mô tả danh mục {name} không được để trống",
+                "descriptionLength": "Mô tả danh mục không quá {name} ký tự",
+                "nameRequire": "Tên danh mục {name} không được để trống",
+                "NameLength": "Tên danh mục không quá {name} ký tự",
+                "slugRequire": "Slug danh mục không được để trống",
+                "slugValid": "Slug danh mục không hợp lệ, chỉ chứa chữ cái, số và dấu gạch ngang"
+            }
+        }
+    },
+    "page-news": {
+        "category": "Danh mục sản phẩm",
+        "canUNeed": "Có thể bạn quan tâm"
+    },
+    "contact": {
+        "demand": "Nhu cầu",
+        "company": "Đơn vị công ty",
+        "category": "Danh mục",
+        "name": "Họ tên",
+        "phone": "Số điện thoại",
+        "content": "Nội dung",
+        "province": "Tỉnh thành",
+        "district": "Quận huyện",
+        "commit": "* Chúng tôi cam kết không chia sẻ thông tin của bạn với bất cứ bên thứ ba.",
+        "accept": "Tôi đồng ý nhận thông tin mới nhất từ BIOFIXFRESH Việt Nam.",
+        "error": {
+            "emailValid": "Email không đúng định dạng",
+            "phoneValid": "Số điện thoại không đúng định dạng"
+        },
+        "success": "Gửi yêu cầu thành công"
+    }
+}

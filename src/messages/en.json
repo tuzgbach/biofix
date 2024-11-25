@@ -1,0 +1,117 @@
+{
+    "common": {
+        "home": "Home",
+        "news": "News",
+        "product": "Product",
+        "company": "Company",
+        "email": "Email Company",
+        "search": "Search...",
+        "watch-video": "Watch video",
+        "all-category": "All category",
+        "cc": "fucking: {{name}}",
+        "project": "Project",
+        "goHome": "Go home",
+        "contact": "Contact",
+        "login": "Login",
+        "Register-information": "Register information",
+        "event": "Biofixfresh Event",
+        "socical": "Connect with Biofixfresh",
+        "receive-information": "Receive Information",
+        "copyright": "Copyright belongs to BioFix Fresh"
+    },
+    "admin": {
+        "info": {
+            "cc": "Đờ mờ",
+            "general": "General information",
+            "slug": "Slug is the path displayed in the browser. It should be unique and contain only letters, numbers, and dashes.",
+            "autoByName": "Generate auto by name",
+            "display": "Display",
+            "language": "Language",
+            "languageSub": "Editing the {{name}} version",
+            "categoryNews": "News category",
+            "content": "Content",
+            "introduce": "Introduce",
+            "isRequire": "{name} is require",
+            "delete": "Delete {{name}}",
+            "add": "Add {{name}}",
+            "select": "select {{name}}",
+            "show": "Show",
+            "hidden": "Hidden",
+            "imageExtra": "The images will appear on the banner on the home page with a minimum of 3 images",
+            "productExcellent": "Featured products",
+            "newsExcellent": "Featured news",
+            "productExcellentExtra": "Featured products will be displayed on the home page with a minimum of 4 products",
+            "newsExcellentExtra": "Featured news will be displayed on the home page with a minimum of known news",
+            "address": "Address",
+            "hostLine": "Host line",
+            "policies": "Policies",
+            "brands": "Brands",
+            "companyName": "Company name",
+            "linkChannels": "Link channels"
+        },
+        "news": {
+            "type": "News type can be article or event",
+            "error": {
+                "require": "News name {{name}} cannot be left blank",
+                "descriptionRequire": "{{name}} news descriptions cannot be left blank",
+                "descriptionLength": "News description must not exceed {{name}} characters",
+                "nameRequire": "{{name}} news name cannot be left blank",
+                "NameLength": "News name must not exceed {{name}} characters",
+                "slugRequire": "News slug cannot be left blank",
+                "slugValid": "News slug must contain only letters, numbers, and dashes",
+                "startDateRequire": "Start date is required and cannot be left blank",
+                "endDateRequire": "End date is required and cannot be left blank",
+                "startDateValid": "Start date must be less than end date"
+            },
+            "name": "News name"
+        },
+        "product": {
+            "composition": "Composition",
+            "microbialDensity": "MicrobialDensity",
+            "isPublish": "If not selected, hidden products will not be shown to the user.",
+            "moreProduct": "View products",
+            "error": {
+                "descriptionRequire": "{{name}} product descriptions cannot be left blank",
+                "descriptionLength": "Product description must not exceed {{name}} characters",
+                "nameRequire": "{{name}} product name cannot be left blank",
+                "NameLength": "Product name must not exceed {{name}} characters",
+                "slugRequire": "Product slug cannot be left blank",
+                "slugValid": "Product slug must contain only letters, numbers, and dashes",
+                "categoryMustArray": "Product category must be an array",
+                "positivesRequire": "The benefit is capturing pieces (You can delete, click on the minus sign next to the edge"
+            }
+        },
+        "category": {
+            "isPublish": "If not selected, hidden products will not be shown to the user.",
+            "error": {
+                "descriptionRequire": "{{name}} category descriptions cannot be left blank",
+                "descriptionLength": "Category description must not exceed {{name}} characters",
+                "nameRequire": "{{name}} category name cannot be left blank",
+                "NameLength": "category name must not exceed {{name}} characters",
+                "slugRequire": "category slug cannot be left blank",
+                "slugValid": "category slug must contain only letters, numbers, and dashes"
+            }
+        }
+    },
+    "page-news": {
+        "category": "Category news",
+        "canUNeed": "You may be interested"
+    },
+    "contact": {
+        "demand": "Demand",
+        "company": "Đơn vị công ty",
+        "category": "Category",
+        "name": "Full name",
+        "phone": "Phone number",
+        "content": "Content",
+        "province": "Province",
+        "district": "District",
+        "commit": "* We commit not to share your information with any third parties.",
+        "accept": "I agree to receive the latest information from BIOFIXFRESH Vietnam.",
+        "error": {
+            "emailValid": "Email is not in the correct format",
+            "phoneValid": "Phone number is not in the correct format"
+        },
+        "success": "Send request successfully"
+    }
+}

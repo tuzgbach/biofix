@@ -16,6 +16,7 @@ type Props = {
 }
 
 export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
+    const strTitle = 'Tổng hợp bài viết mới nhất'
     const { locale } = params
     const info = await getInfo()
     const { brands, metaNews: meta } = info
@@ -26,7 +27,7 @@ export async function generateMetadata({ params, searchParams }: Props): Promise
 
     const title = meta?.metaTitle ?? brand.title[locale]
 
-    const images = [meta?.metaImage].map((v, i) => ({
+    const images = [meta?.metaImage, ...info.images].map((v, i) => ({
         url: v ?? brands[i].image,
         alt: brands[i]?.slogan[locale] ?? 'Biofix fresh',
     }))

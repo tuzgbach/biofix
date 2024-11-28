@@ -1,6 +1,4 @@
-import News from '../../news/page'
-
-export * from '@/app/[locale]/news/page'
+import News from "../../news/page";
 
 export default function NewsPageVi() {
     return <News />

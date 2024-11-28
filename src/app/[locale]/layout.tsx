@@ -27,7 +27,7 @@ export async function generateMetadata({
     params: { locale: Locale }
 }): Promise<Metadata> {
     const { locale } = params
-    const info = processInfoUrl(await infoApi.get())
+    const info = processInfoUrl(await infoApi.get({ next: { revalidate: 60 } }))
     const { brands, meta, logo, linkChannels } = info
     const brand = brands[0]
     const url = `${process.env.NEXT_PUBLIC_URL}/${locale === 'vi' ? '' : locale}`
@@ -36,7 +36,7 @@ export async function generateMetadata({
 
     const title = meta?.metaTitle ?? brand.title[locale]
 
-    const images = [meta?.metaImage].map((v, i) => ({
+    const images = [meta?.metaImage, ...info.images].map((v, i) => ({
         url: v ?? brands[i].image,
         alt: brands[i]?.slogan[locale] ?? 'Biofix fresh',
     }))
@@ -62,7 +62,7 @@ export async function generateMetadata({
     }
 }
 
-export default async function RootLayout({
+export default async function LocaleLayout({
     children,
     params: { locale },
 }: {

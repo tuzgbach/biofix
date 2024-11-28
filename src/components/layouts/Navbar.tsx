@@ -339,7 +339,7 @@ const Navbar = ({ ...rest }) => {
                                                     alt={item.name[locale]}
                                                 />
                                                 <div className="flex flex-col">
-                                                    <LinkLocale href={`/category/${item.slug}`}>
+                                                    <LinkLocale href={`/product/${item.slug}`}>
                                                         <span className="font-helvetica text-3sm font-semibold text-cyan-900 hover:underline">
                                                             {item.name[locale]}
                                                         </span>
@@ -374,7 +374,7 @@ const Navbar = ({ ...rest }) => {
                                     ...v,
                                     key: v.id,
                                     label: (
-                                        <LinkLocale href={`/news/${v.slug}`}>
+                                        <LinkLocale href={`/${v.slug}`}>
                                             <span className="flex items-center space-x-3 mt-1 transition duration-300 ease-in-out">
                                                 <div className="w-10 h-10 flex-shrink-0">
                                                     <Image

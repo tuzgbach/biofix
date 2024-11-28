@@ -55,9 +55,9 @@ const NewDetail = ({ news, allNews }: { news: News; allNews: News[] }) => {
             <IfElse if={!err} else={<ErrorPage type="404" subTitle={err} />}>
                 <div className="space-y-4 ml-2 md:ml-[5rem]">
                     <div className="border-l-4 md:border-l-8 border-black md:w-[60%] w-full">
-                        <h1 className="font-bold text-xl md:text-4xl lg:text-4xl pl-5 md:pl-10 text-sky-700">
+                        <p className="font-bold text-xl md:text-4xl lg:text-4xl pl-5 md:pl-10 text-sky-700">
                             {news?.name?.[locale]}
-                        </h1>
+                        </p>
                     </div>
                     <div className="flex justify-between md:w-[60%] w-full items-center bg-white p-1 rounded-full shadow">
                         <div className="font-semibold text-md md:text-sm">
